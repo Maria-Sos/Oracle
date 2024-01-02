@@ -1,0 +1,51 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1600429753199-5376c2738737?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFyb3QlMjBjYXJkc3xlbnwwfDF8MHx8fDI%3D');
+    background-color: #a8a6a699;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    margin-top: 10%;
+    margin-left: 20%;
+    width: 500px;
+    height: 300px;
+    font-family: 'Dosis', sans-serif;
+    box-shadow: 1px 5px 10px whitesmoke;
+   
+}
+
+#question {
+    width: 300px;
+    border: none;
+    padding: 15px;
+    margin-left: 10px;
+    resize: none;
+}
+
+#btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: rgb(246, 246, 63);
+    box-shadow: 2px 2px 2px grey;
+}
+
+#btn:hover {
+    padding: 18px;
+    font-size: 27px;
+    transition-duration: 1s;
+    background: rgb(241,237,190);
+    background: linear-gradient(306deg, rgba(241,237,190,1) 0%, rgba(251,243,165,1) 53%, rgba(246,221,22,0.9892550770308123) 89%);
+}
+
+h2 {
+    margin-left: 10px;
+}
