@@ -8,7 +8,7 @@ const tarotCards = {
         image: 'https://i.imgur.com/flezz65.jpg'
     },
     2: {
-        title: 'THE Fool',
+        title: 'THE FOOL',
         value: 'Following your heart with innocence and wonder.',
         image: 'https://i.imgur.com/Ka8DoZK.jpg'
     },
@@ -406,10 +406,11 @@ function answer() {
     const userQuestion = question.value;
     if (userQuestion === '') {
         Swal.fire({
-            title: "Please ask a question. Try again",
-            background: 'black',
+            title: "Please type your question and ask again!",
+            padding: "3em",
+            background: '#272829',
             color: 'white',
-            confirmButtonColor: 'red'
+            confirmButtonColor: '#61677A'
         });
     } else {
     Swal.fire({
@@ -418,7 +419,10 @@ function answer() {
         imageUrl: tarotCards[cardNum].image,
         imageWidth: 200,
         imageHeight: 400,
-        imageAlt: tarotCards[cardNum].title.toLowerCase()
+        imageAlt: tarotCards[cardNum].title.toLowerCase(),
+        background: '#272829',
+        color: 'white',
+        confirmButtonColor: '#61677A'
       }).then((result) => {
         location.reload();
       });
