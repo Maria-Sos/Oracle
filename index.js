@@ -5,112 +5,112 @@ const tarotCards = {
     1: {
         title: 'STRENGTH',
         value: 'Your ability to move through fear to find the unshakable power within yourself.',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNy1Afl8TVe9J8Aefx6kNnXtioWVuR2G8YSFJRYTIBLlIuwqaog3Tp-rWMFtwf2T2YNpQ&usqp=CAU'
+        image: 'https://i.imgur.com/flezz65.jpg'
     },
     2: {
         title: 'THE Fool',
         value: 'Following your heart with innocence and wonder.',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_jxINng3mC1OrmtDuXCWYt7tioKg3WbbaUvgOUMYBkOYG9xBqA83d6uYyAXBAeEc9EY&usqp=CAU'
+        image: 'https://i.imgur.com/Ka8DoZK.jpg'
     },
     3: {
         title: 'THE MAGICIAN',
         value: 'Tapping into your genius to find new ways of looking at the world.',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCjCYC4ogBZPN2SBh5zmSho54C27NlG9RulRSP1VulhN_Vo4kj1wxDIpebuVLi885teRA&usqp=CAU'
+        image: 'https://i.imgur.com/4U2rQM1.jpg'
     },
     4: {
         title: 'THE HIGH PRIESTESS',
         value: 'Accessing your intuition and tuning in to the source of feminine power.',
-        image: 'https://cdn.shopify.com/s/files/1/1325/0879/files/02-high-priestess-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488834850'
+        image: 'https://i.imgur.com/jfdHZrT.jpg'
     },
     5: {
         title: 'THE EMPRESS',
         value: 'Realizing your capacity to express beauty and to nurture others from a place of power.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg'
+        image: 'https://i.imgur.com/6S6oj37.jpg'
     },
     6: {
         title: 'THE EMPEROR',
         value: 'Finding the source of your inner authority.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg'
+        image: 'https://i.imgur.com/FACHa4t.jpg'
     },
     7: {
         title: 'THE HIEROPHANT',
         value: 'Using spiritual understanding and wisdom to perceive the world.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg'
+        image: 'blob:https://imgur.com/b375f759-ae03-45ce-92a7-3944ff467faf'
     },
     8: {
         title: 'THE LOVERS',
         value: 'Finding harmony in relating with yourself and others while honoring your values.',
-        image: 'https://cdn.shopify.com/s/files/1/0605/4926/7596/t/60/assets/the-lovers-upright-tarot-card-ae-waite-tarot-deck-version-1682893747473.jpg?v=1682893748'
+        image: 'https://i.imgur.com/2zSAhtD.jpg'
     },
     9: {
         title: 'THE CHARIOT',
         value: 'Following through on your intentions and manifesting your desires.',
-        image: 'https://cdn.shopify.com/s/files/1/1325/0879/files/07-chariot-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488905893'
+        image: 'https://i.imgur.com/77sgUIa.jpg'
     },
     10: {
         title: 'THE HERMIT',
         value: 'Being a light unto yourself and finding your own way throught the darkness.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg'
+        image: 'https://i.imgur.com/3SiQ0yn.jpg'
     },
     11: {
         title: 'THE WEEL OF FARTUNE',
         value: 'A turning point in your destiny and your ability to adapt to change.',
-        image: 'https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wheeloffortune.jpg'
+        image: 'https://i.imgur.com/rE3jCJP.jpg'
     },
     12: {
         title: 'JUSTICE',
         value: 'Your capacity to create a new reality through shattering old, limiting beliefs.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg'
+        image: 'https://i.imgur.com/XDBP6bi.jpg'
     },
     13: {
         title: 'THE HANGED MAN',
         value: 'The necessity to look at something from a different perspective.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg'
+        image: 'https://i.imgur.com/VcUxQ7f.jpg'
     },
     14: {
         title: 'DEATH',
         value: 'The transformation from one persceptual reality to another and the ending of habitual patterns.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RWS_Tarot_13_Death.jpg/220px-RWS_Tarot_13_Death.jpg'
+        image: 'https://i.imgur.com/Dfn6Qw6.jpg'
     },
     15: {
         title: 'TEMPERANCE',
         value: 'Our capacity to deal with something in a measured and patient way.',
-        inage: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg'
+        inage: 'https://i.imgur.com/hQ9GLL3.jpg'
     },
     16: {
         title: 'THE DEVIL',
         value: 'How we deal with our shadow self. This card calls us to cut through lies and see how honesnt we can be with ourselves.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg'
+        image: 'https://i.imgur.com/OwmUC9z.jpg'
     },
     17: {
         title: 'THE TOWER',
         value: 'The collapse of beliefs or material structures that we hold dear. It is in the nonresistance where we can find peace and wisdom.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/RWS_Tarot_16_Tower.jpg'
+        image: 'https://i.imgur.com/fspSCIF.jpg'
     },
     18: {
         title: 'THE STAR',
         value: 'Fonding something to focus on that can guide us through life. Our internal guidance system. Our North Star.',
-        image: 'https://www.ifate.com/images/tar_bigcards/ar17.jpg'
+        image: 'https://i.imgur.com/pKmf03U.jpg'
     },
     19: {
         title: 'THE MOON',
         value: 'Facing and allowing deep-seated fears to dissolve in the light of your awareness. Remove words from the mind and breathe.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/RWS_Tarot_18_Moon.jpg'
+        image: 'https://i.imgur.com/jrhFQzC.jpg'
     },
     20: {
         title: 'THE SUN',
         value: 'Returning to the innocence and vitality of childhood.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg'
+        image: 'https://i.imgur.com/QY5KyYv.jpg'
     },
     21: {
         title: 'JUDGMENT',
         value: 'Our capability to discern what is truly important and to use it to weed the garden of our life.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RWS_Tarot_20_Judgement.jpg/220px-RWS_Tarot_20_Judgement.jpg'
+        image: 'https://i.imgur.com/zIQ8dF1.jpg'
     },
     22: {
         title: 'THE WORLD',
         value: 'Endings. Coming to a place of completion and power internally and externally.',
-        image: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/RWS_Tarot_21_World.jpg'
+        image: 'https://i.imgur.com/4HQiASe.jpg'
     },
     23: {
         title: 'ACE OF STRENGTH',
