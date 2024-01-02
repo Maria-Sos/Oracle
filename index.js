@@ -3,276 +3,394 @@ const btn = document.querySelector('#btn');
 
 const tarotCards = {
     1: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'STRENGTH',
+        value: 'Your ability to move through fear to find the unshakable power within yourself.',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNy1Afl8TVe9J8Aefx6kNnXtioWVuR2G8YSFJRYTIBLlIuwqaog3Tp-rWMFtwf2T2YNpQ&usqp=CAU'
     },
     2: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'THE Fool',
+        value: 'Following your heart with innocence and wonder.',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM_jxINng3mC1OrmtDuXCWYt7tioKg3WbbaUvgOUMYBkOYG9xBqA83d6uYyAXBAeEc9EY&usqp=CAU'
     },
     3: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'THE MAGICIAN',
+        value: 'Tapping into your genius to find new ways of looking at the world.',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCjCYC4ogBZPN2SBh5zmSho54C27NlG9RulRSP1VulhN_Vo4kj1wxDIpebuVLi885teRA&usqp=CAU'
     },
     4: {
-        title: 'T',
-        value: '1111'
+        title: 'THE HIGH PRIESTESS',
+        value: 'Accessing your intuition and tuning in to the source of feminine power.',
+        image: 'https://cdn.shopify.com/s/files/1/1325/0879/files/02-high-priestess-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488834850'
     },
     5: {
-        title: 'Y',
-        value: '222'
+        title: 'THE EMPRESS',
+        value: 'Realizing your capacity to express beauty and to nurture others from a place of power.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/RWS_Tarot_03_Empress.jpg'
     },
     6: {
-        title: 'U',
-        value: '444'
+        title: 'THE EMPEROR',
+        value: 'Finding the source of your inner authority.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/RWS_Tarot_04_Emperor.jpg'
     },
     7: {
-        title: 'I',
-        value: '777'
+        title: 'THE HIEROPHANT',
+        value: 'Using spiritual understanding and wisdom to perceive the world.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/RWS_Tarot_05_Hierophant.jpg'
     },
     8: {
-        title: 'T',
-        value: 'www'
+        title: 'THE LOVERS',
+        value: 'Finding harmony in relating with yourself and others while honoring your values.',
+        image: 'https://cdn.shopify.com/s/files/1/0605/4926/7596/t/60/assets/the-lovers-upright-tarot-card-ae-waite-tarot-deck-version-1682893747473.jpg?v=1682893748'
     },
     9: {
-        title: 'O',
-        value: 'dddd'
+        title: 'THE CHARIOT',
+        value: 'Following through on your intentions and manifesting your desires.',
+        image: 'https://cdn.shopify.com/s/files/1/1325/0879/files/07-chariot-meaning-rider-waite-tarot-major-arcana_large.jpg?v=1488905893'
     },
     10: {
-        title: 'P',
-        value: 'sss'
+        title: 'THE HERMIT',
+        value: 'Being a light unto yourself and finding your own way throught the darkness.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/RWS_Tarot_09_Hermit.jpg'
     },
     11: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'THE WEEL OF FARTUNE',
+        value: 'A turning point in your destiny and your ability to adapt to change.',
+        image: 'https://www.tarotcardmeanings.net/images/tarotcards-large/tarot-wheeloffortune.jpg'
     },
     12: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'JUSTICE',
+        value: 'Your capacity to create a new reality through shattering old, limiting beliefs.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/RWS_Tarot_11_Justice.jpg'
     },
     13: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'THE HANGED MAN',
+        value: 'The necessity to look at something from a different perspective.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/RWS_Tarot_12_Hanged_Man.jpg'
     },
     14: {
-        title: 'T',
-        value: '1111'
+        title: 'DEATH',
+        value: 'The transformation from one persceptual reality to another and the ending of habitual patterns.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/RWS_Tarot_13_Death.jpg/220px-RWS_Tarot_13_Death.jpg'
     },
     15: {
-        title: 'Y',
-        value: '222'
+        title: 'TEMPERANCE',
+        value: 'Our capacity to deal with something in a measured and patient way.',
+        inage: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/RWS_Tarot_14_Temperance.jpg'
     },
     16: {
-        title: 'U',
-        value: '444'
+        title: 'THE DEVIL',
+        value: 'How we deal with our shadow self. This card calls us to cut through lies and see how honesnt we can be with ourselves.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/5/55/RWS_Tarot_15_Devil.jpg'
     },
     17: {
-        title: 'I',
-        value: '777'
+        title: 'THE TOWER',
+        value: 'The collapse of beliefs or material structures that we hold dear. It is in the nonresistance where we can find peace and wisdom.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/5/53/RWS_Tarot_16_Tower.jpg'
     },
     18: {
-        title: 'T',
-        value: 'www'
+        title: 'THE STAR',
+        value: 'Fonding something to focus on that can guide us through life. Our internal guidance system. Our North Star.',
+        image: 'https://www.ifate.com/images/tar_bigcards/ar17.jpg'
     },
     19: {
-        title: 'O',
-        value: 'dddd'
+        title: 'THE MOON',
+        value: 'Facing and allowing deep-seated fears to dissolve in the light of your awareness. Remove words from the mind and breathe.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/RWS_Tarot_18_Moon.jpg'
     },
     20: {
-        title: 'P',
-        value: 'sss'
+        title: 'THE SUN',
+        value: 'Returning to the innocence and vitality of childhood.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/1/17/RWS_Tarot_19_Sun.jpg'
     },
     21: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'JUDGMENT',
+        value: 'Our capability to discern what is truly important and to use it to weed the garden of our life.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/RWS_Tarot_20_Judgement.jpg/220px-RWS_Tarot_20_Judgement.jpg'
     },
     22: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'THE WORLD',
+        value: 'Endings. Coming to a place of completion and power internally and externally.',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/RWS_Tarot_21_World.jpg'
     },
     23: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'ACE OF STRENGTH',
+        value: 'The source of all creative energy is within you. You have the power to imagine, begin, and complete any project you set your mind to.',
+        image: 'https://i.imgur.com/GcwzgkK.jpg'
     },
     24: {
-        title: 'T',
-        value: '1111'
+        title: 'TWO OF STRENGTH',
+        value: 'Growing and making progress toward a future goal. Enjoy discovering what you love to do.',
+        image: 'https://i.imgur.com/saBRAji.jpg'
     },
     25: {
-        title: 'Y',
-        value: '222'
+        title: 'THREE OF STRENGTH',
+        value: 'Expanding your circle of inluence and communicating your ideas. Making progress.',
+        image: 'https://i.imgur.com/KkSbag1.jpg'
     },
     26: {
-        title: 'U',
-        value: '444'
+        title: 'FOUR OF STRENGTH',
+        value: 'The whole is greater than the sum of its parts. Seek out others to collaborate with.',
+        image: 'https://i.imgur.com/G2XcfjH.jpg'
     },
     27: {
-        title: 'I',
-        value: '777'
+        title: 'FIVE OF STRENGTH',
+        value: 'Being ficused totally on being in the moment to work together effectively. Letting go tof competition.',
+        image: 'https://i.imgur.com/3nSEM1i.jpg'
     },
     28: {
-        title: 'T',
-        value: 'www'
+        title: 'SIX OF STRENGTH',
+        value: "Enjoy the success but don't get attached to it. What's your definition of success? Riding the highs and lows.",
+        image: 'https://i.imgur.com/jLhLYIt.jpg'
     },
     29: {
-        title: 'O',
-        value: 'dddd'
+        title: 'SEVEN OF STRENGTH',
+        value: 'Dealing with the overwhelming. Letting go of what causes stress - perfectionism, desire, fear, future-tripping.',
+        image: 'https://i.imgur.com/OwTdIk6.jpeg'
     },
     30: {
-        title: 'P',
-        value: 'sss'
+        title: 'EIGHT OF STRENGTH',
+        value: 'Going with the flow and adapting to change. Hold the goal loosely and enjoy the journey.',
+        image: 'https://i.imgur.com/thxtLQu.jpg'
     },
     31: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'NINE OF STRENGTH',
+        value: 'Finding the wellspring of resolve to push through hardship. A test of faith.',
+        inage: 'https://i.imgur.com/bFjkBj2.jpg'
     },
     32: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'TEN OF STRENGTH',
+        value: "Making sure to speak up. Don't try to do it all. Delegate responsibility where you can. Express yourself.",
+        image: 'https://i.imgur.com/oxMrDbF.jpg'
     },
     33: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'PAGE OF STRENGTH',
+        value: 'It take energy to do something awesome. Go for it! Engage your free spirit and follow your passion.',
+        inage: 'https://i.imgur.com/EglLNIt.jpg'
     },
     34: {
-        title: 'T',
-        value: '1111'
+        title: 'KNIGHT OF STRENGTH',
+        value: 'Going full out and not looking back. Following your gut. Doing what it takes to make it happen.',
+        image: 'https://i.imgur.com/QyvUinR.jpg'
     },
     35: {
-        title: 'Y',
-        value: '222'
+        title: 'GUEEN OF STRENGTH',
+        value: 'Spreading the love and letting your light shine. Having courage to take it to the next level.',
+        image: 'https://i.imgur.com/Yr1UzcU.jpg'
     },
     36: {
-        title: 'U',
-        value: '444'
+        title: 'KING OF STRENGTH',
+        value: 'Fully expressing your powers of leadership and realizing your vision. Teaching others.',
+        image: 'https://i.imgur.com/qnfk8Ks.jpg'
     },
     37: {
-        title: 'I',
-        value: '777'
+        title: 'ACE OF INTELLIGENCE',
+        value: 'Finding your inner wizard and using your genius to discover new ideas and have breakthroughs.',
+        image: 'https://i.imgur.com/kXnopQ5.jpg'
     },
     38: {
-        title: 'T',
-        value: 'www'
+        title: 'TWO OF INTELLIGENCE',
+        value: 'How our inner monologue causes confusion and how we must find a way to listen to our heart.',
+        image: 'https://i.imgur.com/PLgKzen.jpg'
     },
     39: {
-        title: 'O',
-        value: 'dddd'
+        title: 'THREE OF INTELLIGENCE',
+        value: 'Finding a way to heal and learn from anxiety and emotional pain.',
+        image: 'https://i.imgur.com/8j2SUTh.jpg'
     },
     40: {
-        title: 'P',
-        value: 'sss'
+        title: 'FOUR OF INTELLIGENCE',
+        value: 'Taking time to meditate before moving forward while making sure you are not avoiding action.',
+        image: 'https://i.imgur.com/fESgpiB.jpg'
     },
     41: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'FIVE OF INTELLIGENCE',
+        value: 'The ways in which competition breeds conflict and divides us to create suffering.',
+        image: 'https://i.imgur.com/qE7gjQQ.jpg'
     },
     42: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'SIX OF INTELLIGENCE',
+        value: 'Freeing yourself from burdens and old ways of thinking.',
+        image: 'https://i.imgur.com/oYVmyhS.jpg'
     },
     43: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'SEVEN OF INTELLIGENCE',
+        value: 'How we play games, hide our real selves, and mask our true intentions out of fear or hurt.',
+        image: 'https://i.imgur.com/KqlfgPq.jpg'
     },
     44: {
-        title: 'T',
-        value: '1111'
+        title: 'EIGHT OF INTELLIGENCE',
+        value: 'Untangling ourselves from guilty thoughts and self-punishment.',
+        image: 'https://i.imgur.com/yyUQ6qA.jpg'
     },
     45: {
-        title: 'Y',
-        value: '222'
+        title: 'NINE OF INTELLIGENCE',
+        value: 'Looking at how thoughts can create turmoil and finding a way to observe them from a dispassionate space of stillness.',
+        image: 'https://i.imgur.com/utlZyXP.jpg'
     },
     46: {
-        title: 'U',
-        value: '444'
+        title: 'TEN OF INTELLIGENCE',
+        value: 'How we deal with what shows up in our lives. Do we avoid and deny? Do we react in anger? Do we remain conscious and aware?',
+        image: 'https://i.imgur.com/Pa57fWZ.jpg'
     },
     47: {
-        title: 'I',
-        value: '777'
+        title: 'PAGE OF INTELLIGENCE',
+        value: 'Discovering new ways of communicating your ideas and putting them into action.',
+        image: 'https://i.imgur.com/uH2jsIa.jpg'
     },
     48: {
-        title: 'T',
-        value: 'www'
+        title: 'KNIGHT OF INTELLIGENCE',
+        value: 'Channeling raw ambition into a constructive, thoughtful, and focused plan.',
+        image: 'https://i.imgur.com/CQNXAnG.jpg'
     },
     49: {
-        title: 'O',
-        value: 'dddd'
+        title: 'QUEEN OF INTELLIGENCE',
+        value: 'The necessity to clearly communicate what you desire from a space of loving-kindness.',
+        image: 'https://i.imgur.com/8DvEUgZ.jpg'
     },
     50: {
-        title: 'P',
-        value: 'sss'
+        title: 'KING OF INTELLIGENCE',
+        value: 'Using the power of your intellect clearly without letting if override your heart.',
+        image: 'https://i.imgur.com/NmhMSBp.jpg'
     },
     51: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'ACE OF WISDOM',
+        value: 'Our ability to access the power of insight to heal emotions and love ourselves.',
+        image: 'https://i.imgur.com/Is3dZxT.jpg'
     },
     52: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'TWO OF WISDOM',
+        value: 'Being able to be with someone - whether a friend or lover - and still retain your own sense of individuality.',
+        image: 'https://i.imgur.com/FO9AhsA.jpg'
     },
     53: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'THREE OF WISDOM',
+        value: 'Taking time to celebrate the simple joy of aliveness with your friends.',
+        image: 'https://i.imgur.com/bo1DKkK.jpg'
     },
     54: {
-        title: 'T',
-        value: '1111'
+        title: 'FOUR OF WISDOM',
+        value: 'Taking time to meditate amd let go of all the noisy thoughts that are in your head.',
+        image: 'https://i.imgur.com/bjQan4g.jpg'
     },
     55: {
-        title: 'Y',
-        value: '222'
+        title: 'FIVE OF WISDOM',
+        value: 'Keeping a bright outlook and not letting past pain affect your interpretation of the present moment.',
+        image: 'https://i.imgur.com/VuOLrEa.jpg'
     },
     56: {
-        title: 'U',
-        value: '444'
+        title: 'SIX OF WISDOM',
+        value: 'Our ability to become a child and play in the world. A return to innocence.',
+        image: 'https://i.imgur.com/oQEUwNS.jpg'
     },
     57: {
-        title: 'I',
-        value: '777'
+        title: 'SEVEN OF WISDOM',
+        value: 'Our capacity to be discerning in our decisions and to choose from a place of clarity and wisdom.',
+        image: 'https://i.imgur.com/fWS5WfM.jpg'
     },
     58: {
-        title: 'T',
-        value: 'www'
+        title: 'EIGHT OF WISDOM',
+        value: 'Finding a way out of past pain by having faith that somting better is waiting for you.',
+        image: 'https://i.imgur.com/OX3YKfW.jpg'
     },
     59: {
-        title: 'O',
-        value: 'dddd'
+        title: 'NINE OF WISDOM',
+        value: 'Finding balance between enjoying our accomplishments and not slipping into complacency.',
+        image: 'https://i.imgur.com/etHhOce.jpg'
     },
     60: {
-        title: 'P',
-        value: 'sss'
+        title: 'TEN OF WISDOM',
+        value: 'Uniting the head and the heart. Relating to others and your environment in emotional balance.',
+        image: 'https://i.imgur.com/kDYG6T4.jpg'
+    },
+    61: {
+        title: 'PAGE OF WISDOM',
+        value: 'Embarking on a new path sparked by your curiosity and creativity.',
+        image: 'https://i.imgur.com/DXA6zX6.jpg'
+    },
+    62: {
+        title: 'KNIGHT OF WISDOM',
+        value: 'Trusting your passion, allowing yourself to dream big, and imagining the best happening for you.',
+        image: 'https://i.imgur.com/bWPATzw.jpg'
+    },
+    63: {
+        title: 'QUEEN OF WISDOM',
+        value: 'Going into the depth of compassion and quieting the critical mind to create emotional stability.',
+        image: 'https://i.imgur.com/kgnjpYR.jpg'
+    },
+    64: {
+        title: 'KING OF WISDOM',
+        value: 'Fully accepting this moment. Allowing compaints to dissolve. Being kind to yourself.',
+        image: 'https://i.imgur.com/0mjQC58.jpg'
+    },
+    65: {
+        title: 'ACE OF CHARISMA',
+        value: 'A new opportunity and a time of manifestation and abundance.',
+        image: 'https://i.imgur.com/0S0vRk2.jpg'
+    },
+    66: {
+        title: 'TWO OF CHARISMA',
+        value: 'Our ability to manage our time with grace and ease by getting clear on our priorities.',
+        image: 'https://i.imgur.com/jTIRlP3.jpg'
+    },
+    67: {
+        title: 'THREE OF CHARISMA',
+        value: 'Using the power of team and learning how to collaborate.',
+        image: 'https://i.imgur.com/HtujMPI.jpg'
+    },
+    68: {
+        title: 'FOUR OF CHARISMA',
+        value: 'Being careful with finances while not falling into fear or greed.',
+        image: 'https://i.imgur.com/sGbRl87.jpg'
+    },
+    69: {
+        title: 'FIVE OF CHARISMA',
+        value: 'Finding out how to move out of lack mentality and to enjoy the abundance, in whatever form, showing up in our lives.',
+        image: 'https://i.imgur.com/Z49OHGC.jpg'
+    },
+    70: {
+        title: 'SIX OF CHARISMA',
+        value: 'Giving and receiving fully while not sacrificing your values or exausting your energy.',
+        image: 'https://i.imgur.com/cSBpnvF.jpg'
     },
     71: {
-        title: 'Imperio',
-        value: 'Tra-ta-ta'
+        title: 'SEVEN OF CHARISMA',
+        value: 'The power of allowing your plans to develop and unfold without ergency or restlessness.',
+        image: 'https://i.imgur.com/fglQG09.jpg'
     },
     72: {
-        title: 'fulish',
-        value: 'jnskjnskl'
+        title: 'EIGHT OF CHARISMA',
+        value: 'Paying attention to doing the simple things well. Slow and steady wins the race.',
+        image: 'https://i.imgur.com/eNkTeBO.jpg'
     },
     73: {
-        title: 'King',
-        value: 'djkdsj'
+        title: 'NINE OF CHARISMA',
+        value: 'The capability to come out of "survival mode" and enjoy the abundance and self-sufficiency that we do have.',
+        image: 'https://i.imgur.com/DF9cPD0.jpg'
     },
     74: {
-        title: 'T',
-        value: '1111'
+        title: 'TEN OF CHARISMA',
+        value: 'The security that comes with having a network of peaople who support you and your dreams. Long-term success.',
+        image: 'https://i.imgur.com/faEzftV.jpg'
     },
     75: {
-        title: 'Y',
-        value: '222'
+        title: 'PAGE OF CHARISMA',
+        value: "Getting into action and rekindling a sense of adventure with even the small things. Realize what isn't working.",
+        image: 'https://i.imgur.com/naureOW.jpg'
     },
     76: {
-        title: 'U',
-        value: '444'
+        title: 'KNIGHT OF CHARISMA',
+        value: 'Finding  a way to enjoy routine, take responsibility for our own success, and let go of expectations. Good work speaks for itself',
+        image: 'https://i.imgur.com/QETWEoh.jpg'
     },
     77: {
-        title: 'I',
-        value: '777'
+        title: 'QUEEN OF CHARISMA',
+        value: 'Creating a nurturing space for yourself and others to achieve greatness. Maintaining work/life balance.',
+        image: 'https://i.imgur.com/3MDivTR.jpg'
     },
     78: {
-        title: 'T',
-        value: 'www'
+        title: 'KING OF CHARISMA',
+        value: 'Reaping the fruits of your endeavors. Enjoying abundance while not getting lost in acquiring.',
+        image: 'https://i.imgur.com/RKjXMoR.jpg'
     }
 }
 
@@ -297,10 +415,10 @@ function answer() {
     Swal.fire({
         title: tarotCards[cardNum].title,
         text: tarotCards[cardNum].value,
-        imageUrl: "https://unsplash.it/400/200",
-        imageWidth: 400,
-        imageHeight: 200,
-        imageAlt: "Custom image"
+        imageUrl: tarotCards[cardNum].image,
+        imageWidth: 200,
+        imageHeight: 400,
+        imageAlt: tarotCards[cardNum].title.toLowerCase()
       }).then((result) => {
         location.reload();
       });
