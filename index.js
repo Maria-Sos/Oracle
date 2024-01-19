@@ -395,7 +395,6 @@ const tarotCards = {
 }
 
 const cardNum = Math.floor(Math.random() * (78 - 1 + 1) + 1)
-console.log(cardNum)
 
 btn.addEventListener('click', answer)
 question.addEventListener('keypress', function (e) {
@@ -428,3 +427,26 @@ function answer() {
       });
     }
 }
+
+gsap.to('h2', {
+    text: "Ask your question",
+    duration: 2, 
+    delay: 3, 
+    ease: "powe1.in",
+  })
+
+gsap.set("#container, #btn", {
+    opacity: 0,
+    scale: 0
+})
+gsap.to('#container', {
+    scale: 1,
+    duration: 1,
+    opacity: 1
+})
+gsap.to('#btn', {
+    scale: 1,
+    duration: 1,
+    opacity: 1,
+    delay: 1.5
+})
