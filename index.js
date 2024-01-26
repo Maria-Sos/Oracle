@@ -428,6 +428,12 @@ function answer() {
     }
 }
 
+gsap.to('#myVideo', {
+    duration: 30,
+    display: 1,
+    opacity: 1
+})
+
 gsap.to('h2', {
     text: "Ask your question",
     duration: 2, 

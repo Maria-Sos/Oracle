@@ -1,5 +1,4 @@
 body {
-    background-image: url('background.jpg');
     background-color: black;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -81,4 +80,15 @@ h2 {
     h2 {
         font-size: 30px;
     }
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -10;
+    display: 0;
+    opacity: 0;
 }
