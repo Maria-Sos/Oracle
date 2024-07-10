@@ -49,7 +49,7 @@ const tarotCards = {
     },
     10: {
         title: 'THE HERMIT',
-        value: 'Being a light unto yourself and finding your own way throught the darkness.',
+        value: 'Being a light unto yourself and finding your own way through the darkness.',
         image: 'https://i.imgur.com/3SiQ0yn.jpg'
     },
     11: {
@@ -64,12 +64,12 @@ const tarotCards = {
     },
     13: {
         title: 'THE HANGED MAN',
-        value: 'The necessity to look at something from a different perspective.',
+        value: 'The necessity of looking at something from a different perspective.',
         image: 'https://i.imgur.com/VcUxQ7f.jpg'
     },
     14: {
         title: 'DEATH',
-        value: 'The transformation from one persceptual reality to another and the ending of habitual patterns.',
+        value: 'The transformation from one perceptual reality to another and the ending of habitual patterns.',
         image: 'https://i.imgur.com/Dfn6Qw6.jpg'
     },
     15: {
@@ -79,22 +79,22 @@ const tarotCards = {
     },
     16: {
         title: 'THE DEVIL',
-        value: 'How we deal with our shadow self. This card calls us to cut through lies and see how honesnt we can be with ourselves.',
+        value: 'How we deal with our shadow self. This card calls us to cut through lies and see how honest we can be with ourselves.',
         image: 'https://i.imgur.com/OwmUC9z.jpg'
     },
     17: {
         title: 'THE TOWER',
-        value: 'The collapse of beliefs or material structures that we hold dear. It is in the nonresistance where we can find peace and wisdom.',
+        value: 'The collapse of beliefs or material structures that we hold dear. It is in non-resistance where we can find peace and wisdom.',
         image: 'https://i.imgur.com/fspSCIF.jpg'
     },
     18: {
         title: 'THE STAR',
-        value: 'Fonding something to focus on that can guide us through life. Our internal guidance system. Our North Star.',
+        value: 'Finding something to focus on that can guide us through life. Our internal guidance system. Our North Star.',
         image: 'https://i.imgur.com/pKmf03U.jpg'
     },
     19: {
         title: 'THE MOON',
-        value: 'Facing and allowing deep-seated fears to dissolve in the light of your awareness. Remove words from the mind and breathe.',
+        value: 'Facing and allowing deep-seated fears to dissolve in the light of your awareness. Release thoughts from the mind and breathe.',
         image: 'https://i.imgur.com/jrhFQzC.jpg'
     },
     20: {
@@ -124,7 +124,7 @@ const tarotCards = {
     },
     25: {
         title: 'THREE OF STRENGTH',
-        value: 'Expanding your circle of inluence and communicating your ideas. Making progress.',
+        value: 'Expanding your circle of influence and communicating your ideas. Making progress.',
         image: 'https://i.imgur.com/KkSbag1.jpg'
     },
     26: {
@@ -134,7 +134,7 @@ const tarotCards = {
     },
     27: {
         title: 'FIVE OF STRENGTH',
-        value: 'Being ficused totally on being in the moment to work together effectively. Letting go tof competition.',
+        value: 'Being focused totally on being in the moment to work together effectively. Letting go of competition.',
         image: 'https://i.imgur.com/3nSEM1i.jpg'
     },
     28: {
@@ -144,7 +144,7 @@ const tarotCards = {
     },
     29: {
         title: 'SEVEN OF STRENGTH',
-        value: 'Dealing with the overwhelming. Letting go of what causes stress - perfectionism, desire, fear, future-tripping.',
+        value: 'Dealing with the overwhelming. Letting go of what causes stress—perfectionism, desire, fear, future-tripping.',
         image: 'https://i.imgur.com/OwTdIk6.jpeg'
     },
     30: {
@@ -164,7 +164,7 @@ const tarotCards = {
     },
     33: {
         title: 'PAGE OF STRENGTH',
-        value: 'It take energy to do something awesome. Go for it! Engage your free spirit and follow your passion.',
+        value: 'It takes energy to do something awesome. Go for it! Engage your free spirit and follow your passion.',
         inage: 'https://i.imgur.com/EglLNIt.jpg'
     },
     34: {
@@ -174,7 +174,7 @@ const tarotCards = {
     },
     35: {
         title: 'GUEEN OF STRENGTH',
-        value: 'Spreading the love and letting your light shine. Having courage to take it to the next level.',
+        value: 'Spreading the love and letting your light shine. Having the courage to take it to the next level.',
         image: 'https://i.imgur.com/Yr1UzcU.jpg'
     },
     36: {
@@ -204,7 +204,7 @@ const tarotCards = {
     },
     41: {
         title: 'FIVE OF INTELLIGENCE',
-        value: 'The ways in which competition breeds conflict and divides us to create suffering.',
+        value: 'The ways in which competition breeds conflict and divides us, creating suffering.',
         image: 'https://i.imgur.com/qE7gjQQ.jpg'
     },
     42: {
@@ -249,7 +249,7 @@ const tarotCards = {
     },
     50: {
         title: 'KING OF INTELLIGENCE',
-        value: 'Using the power of your intellect clearly without letting if override your heart.',
+        value: 'Using the power of your intellect clearly without letting it override your heart.',
         image: 'https://i.imgur.com/NmhMSBp.jpg'
     },
     51: {
@@ -259,7 +259,7 @@ const tarotCards = {
     },
     52: {
         title: 'TWO OF WISDOM',
-        value: 'Being able to be with someone - whether a friend or lover - and still retain your own sense of individuality.',
+        value: 'Being able to be with someone—whether a friend or lover—and still retain your own sense of individuality.',
         image: 'https://i.imgur.com/FO9AhsA.jpg'
     },
     53: {
@@ -269,7 +269,7 @@ const tarotCards = {
     },
     54: {
         title: 'FOUR OF WISDOM',
-        value: 'Taking time to meditate amd let go of all the noisy thoughts that are in your head.',
+        value: 'Taking time to meditate and let go of all the noisy thoughts that are in your head.',
         image: 'https://i.imgur.com/bjQan4g.jpg'
     },
     55: {
@@ -279,7 +279,7 @@ const tarotCards = {
     },
     56: {
         title: 'SIX OF WISDOM',
-        value: 'Our ability to become a child and play in the world. A return to innocence.',
+        value: 'Our ability to become like a child and play in the world. A return to innocence.',
         image: 'https://i.imgur.com/oQEUwNS.jpg'
     },
     57: {
@@ -289,7 +289,7 @@ const tarotCards = {
     },
     58: {
         title: 'EIGHT OF WISDOM',
-        value: 'Finding a way out of past pain by having faith that somting better is waiting for you.',
+        value: 'Finding a way out of past pain by having faith that something better is waiting for you.',
         image: 'https://i.imgur.com/OX3YKfW.jpg'
     },
     59: {
@@ -319,7 +319,7 @@ const tarotCards = {
     },
     64: {
         title: 'KING OF WISDOM',
-        value: 'Fully accepting this moment. Allowing compaints to dissolve. Being kind to yourself.',
+        value: 'Fully accepting this moment. Allowing complaints to dissolve. Being kind to yourself.',
         image: 'https://i.imgur.com/0mjQC58.jpg'
     },
     65: {
@@ -334,7 +334,7 @@ const tarotCards = {
     },
     67: {
         title: 'THREE OF CHARISMA',
-        value: 'Using the power of team and learning how to collaborate.',
+        value: 'Using the power of teamwork and learning how to collaborate.',
         image: 'https://i.imgur.com/HtujMPI.jpg'
     },
     68: {
@@ -344,17 +344,17 @@ const tarotCards = {
     },
     69: {
         title: 'FIVE OF CHARISMA',
-        value: 'Finding out how to move out of lack mentality and to enjoy the abundance, in whatever form, showing up in our lives.',
+        value: 'Finding out how to move out of a lack mentality and to enjoy the abundance, in whatever form, showing up in our lives.',
         image: 'https://i.imgur.com/Z49OHGC.jpg'
     },
     70: {
         title: 'SIX OF CHARISMA',
-        value: 'Giving and receiving fully while not sacrificing your values or exausting your energy.',
+        value: 'Giving and receiving fully while not sacrificing your values or exhausting your energy.',
         image: 'https://i.imgur.com/cSBpnvF.jpg'
     },
     71: {
         title: 'SEVEN OF CHARISMA',
-        value: 'The power of allowing your plans to develop and unfold without ergency or restlessness.',
+        value: 'The power of allowing your plans to develop and unfold without urgency or restlessness.',
         image: 'https://i.imgur.com/fglQG09.jpg'
     },
     72: {
@@ -369,27 +369,27 @@ const tarotCards = {
     },
     74: {
         title: 'TEN OF CHARISMA',
-        value: 'The security that comes with having a network of peaople who support you and your dreams. Long-term success.',
+        value: 'The security that comes with having a network of people who support you and your dreams. Long-term success.',
         image: 'https://i.imgur.com/faEzftV.jpg'
     },
     75: {
         title: 'PAGE OF CHARISMA',
-        value: "Getting into action and rekindling a sense of adventure with even the small things. Realize what isn't working.",
+        value: "Getting into action and rekindling a sense of adventure, even with the small things, involves realizing what isn't working.",
         image: 'https://i.imgur.com/naureOW.jpg'
     },
     76: {
         title: 'KNIGHT OF CHARISMA',
-        value: 'Finding  a way to enjoy routine, take responsibility for our own success, and let go of expectations. Good work speaks for itself',
+        value: 'Finding a way to enjoy routine, taking responsibility for our own success, and letting go of expectations allows good work to speak for itself.',
         image: 'https://i.imgur.com/QETWEoh.jpg'
     },
     77: {
         title: 'QUEEN OF CHARISMA',
-        value: 'Creating a nurturing space for yourself and others to achieve greatness. Maintaining work/life balance.',
+        value: 'Creating a nurturing space for yourself and others to achieve greatness, while maintaining work/life balance.',
         image: 'https://i.imgur.com/3MDivTR.jpg'
     },
     78: {
         title: 'KING OF CHARISMA',
-        value: 'Reaping the fruits of your endeavors. Enjoying abundance while not getting lost in acquiring.',
+        value: 'Reaping the fruits of your endeavors, enjoying abundance while not getting lost in acquiring.',
         image: 'https://i.imgur.com/RKjXMoR.jpg'
     }
 }
